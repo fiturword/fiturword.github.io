@@ -3,12 +3,12 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[1635,253,297,77],[698,1156,268,77],[968,1160,268,77],[1032,1081,273,77],[1307,1081,271,77],[426,1122,270,77],[1238,1160,266,77],[1580,1081,271,77],[0,1126,269,77],[734,1081,296,73],[426,1047,306,73],[807,969,976,61],[1683,678,257,122],[824,501,966,76],[980,423,976,76],[0,423,978,76],[652,267,981,76],[0,345,980,76],[982,345,979,76],[0,891,825,76],[839,813,835,76],[0,813,837,76],[0,735,840,76],[842,735,839,76],[1316,182,578,69],[0,969,805,76],[827,891,815,76],[652,0,800,131],[0,1047,424,77],[1785,904,251,77],[0,0,324,325],[326,0,324,325],[1866,0,133,133],[1896,135,114,68],[1886,501,133,133],[807,1032,1012,47],[1242,579,642,97],[1683,802,271,100],[652,133,662,132],[1853,983,133,133],[1454,0,410,180],[271,1126,132,133],[1506,1160,132,133],[1853,1118,133,133],[1640,1160,132,133],[405,1201,132,133],[824,579,416,154],[0,501,410,180],[412,501,410,180],[2001,0,32,32],[2001,34,32,32],[2001,68,32,32],[2012,102,32,32],[1316,133,32,32],[1350,133,32,32],[1384,133,32,32],[1418,133,32,32],[2012,136,32,32],[2012,170,32,32]]},
-		{name:"index_atlas_2", frames: [[0,1331,952,133],[0,1890,810,143],[0,1064,1036,132],[812,1889,1050,110],[0,152,1381,150],[0,304,1381,150],[0,456,1381,150],[0,608,1381,150],[0,760,1381,150],[0,0,1384,150],[0,912,1381,150],[1386,0,641,208],[1383,210,641,208],[1383,420,641,208],[1383,630,641,208],[1383,840,641,208],[642,1680,641,207],[643,1470,641,207],[1383,1050,641,208],[1286,1470,641,207],[1020,1260,641,208],[0,1680,640,208],[1285,1679,641,207],[0,1470,641,208],[0,1198,1018,131]]},
-		{name:"index_atlas_3", frames: [[1019,790,679,375],[1187,0,679,375],[1187,377,679,375],[0,1128,679,375],[0,790,1017,336],[0,0,1185,393],[0,395,1185,393],[681,1167,726,301],[0,1657,1396,150],[0,1809,1390,150],[0,1505,1441,150]]},
-		{name:"index_atlas_4", frames: [[0,0,1185,393],[0,395,1185,393],[0,790,1185,393],[0,1185,1185,393],[0,1580,1185,393]]},
-		{name:"index_atlas_5", frames: [[0,1242,1185,393],[0,847,1378,393],[0,1637,1185,393],[0,0,1822,845]]},
-		{name:"index_atlas_6", frames: [[0,0,1822,845],[0,847,1822,845]]},
+		{name:"index_atlas_1", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_2", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_3", frames: [[0,0,1920,1080]]},
+		{name:"index_atlas_4", frames: [[0,0,1920,1080],[0,1082,1874,845]]},
+		{name:"index_atlas_5", frames: [[0,863,1822,854],[0,0,1822,861]]},
+		{name:"index_atlas_6", frames: [[0,852,1822,845],[0,0,1822,850]]},
 		{name:"index_atlas_7", frames: [[0,0,1822,845],[0,847,1822,845]]},
 		{name:"index_atlas_8", frames: [[0,0,1822,845],[0,847,1822,845]]},
 		{name:"index_atlas_9", frames: [[0,0,1822,845],[0,847,1822,845]]},
@@ -27,12 +27,12 @@ lib.ssMetadata = [
 		{name:"index_atlas_22", frames: [[0,0,1822,845],[0,847,1822,845]]},
 		{name:"index_atlas_23", frames: [[0,0,1822,845],[0,847,1822,845]]},
 		{name:"index_atlas_24", frames: [[0,0,1822,845],[0,847,1822,845]]},
-		{name:"index_atlas_25", frames: [[0,852,1822,845],[0,0,1822,850]]},
-		{name:"index_atlas_26", frames: [[0,863,1822,854],[0,0,1822,861]]},
-		{name:"index_atlas_27", frames: [[0,0,1920,1080],[0,1082,1874,845]]},
-		{name:"index_atlas_28", frames: [[0,0,1920,1080]]},
-		{name:"index_atlas_29", frames: [[0,0,1920,1080]]},
-		{name:"index_atlas_30", frames: [[0,0,1920,1080]]}
+		{name:"index_atlas_25", frames: [[0,0,1822,845],[0,847,1822,845]]},
+		{name:"index_atlas_26", frames: [[0,1242,1185,393],[0,847,1378,393],[0,1637,1185,393],[0,0,1822,845]]},
+		{name:"index_atlas_27", frames: [[0,0,1185,393],[0,395,1185,393],[0,790,1185,393],[0,1185,1185,393],[0,1580,1185,393]]},
+		{name:"index_atlas_28", frames: [[1019,790,679,375],[1187,0,679,375],[1187,377,679,375],[0,1128,679,375],[0,790,1017,336],[0,0,1185,393],[0,395,1185,393],[681,1167,726,301],[0,1657,1396,150],[0,1809,1390,150],[0,1505,1441,150]]},
+		{name:"index_atlas_29", frames: [[0,1331,952,133],[0,1890,810,143],[0,1064,1036,132],[812,1889,1050,110],[0,152,1381,150],[0,304,1381,150],[0,456,1381,150],[0,608,1381,150],[0,760,1381,150],[0,0,1384,150],[0,912,1381,150],[1386,0,641,208],[1383,210,641,208],[1383,420,641,208],[1383,630,641,208],[1383,840,641,208],[642,1680,641,207],[643,1470,641,207],[1383,1050,641,208],[1286,1470,641,207],[1020,1260,641,208],[0,1680,640,208],[1285,1679,641,207],[0,1470,641,208],[0,1198,1018,131]]},
+		{name:"index_atlas_30", frames: [[1635,253,297,77],[698,1156,268,77],[968,1160,268,77],[1032,1081,273,77],[1307,1081,271,77],[426,1122,270,77],[1238,1160,266,77],[1580,1081,271,77],[0,1126,269,77],[734,1081,296,73],[426,1047,306,73],[807,969,976,61],[1683,678,257,122],[824,501,966,76],[980,423,976,76],[0,423,978,76],[652,267,981,76],[0,345,980,76],[982,345,979,76],[0,891,825,76],[839,813,835,76],[0,813,837,76],[0,735,840,76],[842,735,839,76],[1316,182,578,69],[0,969,805,76],[827,891,815,76],[652,0,800,131],[0,1047,424,77],[1785,904,251,77],[0,0,324,325],[326,0,324,325],[1866,0,133,133],[1896,135,114,68],[1886,501,133,133],[807,1032,1012,47],[1242,579,642,97],[1683,802,271,100],[652,133,662,132],[1853,983,133,133],[1454,0,410,180],[271,1126,132,133],[1506,1160,132,133],[1853,1118,133,133],[1640,1160,132,133],[405,1201,132,133],[824,579,416,154],[0,501,410,180],[412,501,410,180],[2001,0,32,32],[2001,34,32,32],[2001,68,32,32],[2012,102,32,32],[1316,133,32,32],[1350,133,32,32],[1384,133,32,32],[1418,133,32,32],[2012,136,32,32],[2012,170,32,32]]}
 ];
 
 
@@ -57,1057 +57,1057 @@ lib.ssMetadata = [
 
 
 (lib.background = function() {
-	this.initialize(ss["index_atlas_30"]);
+	this.initialize(ss["index_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.background2 = function() {
-	this.initialize(ss["index_atlas_29"]);
+	this.initialize(ss["index_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.background3 = function() {
-	this.initialize(ss["index_atlas_28"]);
+	this.initialize(ss["index_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.background4 = function() {
-	this.initialize(ss["index_atlas_27"]);
+	this.initialize(ss["index_atlas_4"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fitur1 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fitur2 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fitur3 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.fitur4 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.frame = function() {
-	this.initialize(ss["index_atlas_25"]);
+	this.initialize(ss["index_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.informasi = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.isiabout1 = function() {
-	this.initialize(ss["index_atlas_24"]);
+	this.initialize(ss["index_atlas_7"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.isiabout2 = function() {
-	this.initialize(ss["index_atlas_24"]);
+	this.initialize(ss["index_atlas_7"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jawaban1 = function() {
-	this.initialize(ss["index_atlas_5"]);
+	this.initialize(ss["index_atlas_26"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jawaban10 = function() {
-	this.initialize(ss["index_atlas_5"]);
+	this.initialize(ss["index_atlas_26"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jawaban2 = function() {
-	this.initialize(ss["index_atlas_5"]);
+	this.initialize(ss["index_atlas_26"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jawaban3 = function() {
-	this.initialize(ss["index_atlas_4"]);
+	this.initialize(ss["index_atlas_27"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.jawaban4 = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.jawaban5 = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.jawaban6 = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.jawaban7 = function() {
-	this.initialize(ss["index_atlas_4"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.jawaban8 = function() {
-	this.initialize(ss["index_atlas_3"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.jawaban9 = function() {
-	this.initialize(ss["index_atlas_3"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul10 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul3 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul4 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul5 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul6 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul7 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul8 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul9 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulabout1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulabout2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulfitur = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulkuis = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm3 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm4 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm5 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm1sm6 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm2sm1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm2sm2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm2sm3 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm2sm4 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm2sm5 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm3 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm4sm1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulm4sm2 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulmateri1 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulmateri2 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judulmateri4 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul_1 = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.judul_2 = function() {
-	this.initialize(ss["index_atlas_2"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.lingkaransalah = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.lingkaran = function() {
-	this.initialize(ss["index_atlas_1"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm11 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm12 = function() {
-	this.initialize(ss["index_atlas_23"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm13 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm14 = function() {
-	this.initialize(ss["index_atlas_22"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm21 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm22 = function() {
-	this.initialize(ss["index_atlas_21"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm23 = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm31 = function() {
-	this.initialize(ss["index_atlas_25"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm32 = function() {
-	this.initialize(ss["index_atlas_20"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm33 = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm41 = function() {
-	this.initialize(ss["index_atlas_26"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm42 = function() {
-	this.initialize(ss["index_atlas_19"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm43 = function() {
-	this.initialize(ss["index_atlas_18"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm51 = function() {
-	this.initialize(ss["index_atlas_18"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm52 = function() {
-	this.initialize(ss["index_atlas_17"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm53 = function() {
-	this.initialize(ss["index_atlas_17"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm61 = function() {
-	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm62 = function() {
-	this.initialize(ss["index_atlas_16"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim1sm63 = function() {
-	this.initialize(ss["index_atlas_15"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm11 = function() {
-	this.initialize(ss["index_atlas_15"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm12 = function() {
-	this.initialize(ss["index_atlas_14"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm13 = function() {
-	this.initialize(ss["index_atlas_14"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm21 = function() {
-	this.initialize(ss["index_atlas_26"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm22 = function() {
-	this.initialize(ss["index_atlas_13"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm31 = function() {
-	this.initialize(ss["index_atlas_13"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm32 = function() {
-	this.initialize(ss["index_atlas_12"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm33 = function() {
-	this.initialize(ss["index_atlas_12"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm34 = function() {
-	this.initialize(ss["index_atlas_11"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm41 = function() {
-	this.initialize(ss["index_atlas_11"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm42 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim2sm5 = function() {
-	this.initialize(ss["index_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim31 = function() {
-	this.initialize(ss["index_atlas_9"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.materim32 = function() {
 	this.initialize(ss["index_atlas_27"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.materim33 = function() {
+(lib.jawaban5 = function() {
+	this.initialize(ss["index_atlas_27"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.jawaban6 = function() {
+	this.initialize(ss["index_atlas_27"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.jawaban7 = function() {
+	this.initialize(ss["index_atlas_27"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.jawaban8 = function() {
+	this.initialize(ss["index_atlas_28"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.jawaban9 = function() {
+	this.initialize(ss["index_atlas_28"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul10 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul2 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul3 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul4 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul5 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul6 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul7 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul8 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul9 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulabout1 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulabout2 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulfitur = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulkuis = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm1 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm2 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm3 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm4 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm5 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm1sm6 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm2sm1 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm2sm2 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm2sm3 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm2sm4 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm2sm5 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm3 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm4sm1 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulm4sm2 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulmateri1 = function() {
+	this.initialize(ss["index_atlas_29"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulmateri2 = function() {
+	this.initialize(ss["index_atlas_29"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judulmateri4 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul_1 = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.judul_2 = function() {
+	this.initialize(ss["index_atlas_29"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lingkaransalah = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.lingkaran = function() {
+	this.initialize(ss["index_atlas_30"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm11 = function() {
+	this.initialize(ss["index_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm12 = function() {
+	this.initialize(ss["index_atlas_8"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm13 = function() {
+	this.initialize(ss["index_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm14 = function() {
 	this.initialize(ss["index_atlas_9"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
+(lib.materim1sm21 = function() {
+	this.initialize(ss["index_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm22 = function() {
+	this.initialize(ss["index_atlas_10"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm23 = function() {
+	this.initialize(ss["index_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm31 = function() {
+	this.initialize(ss["index_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm32 = function() {
+	this.initialize(ss["index_atlas_11"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm33 = function() {
+	this.initialize(ss["index_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm41 = function() {
+	this.initialize(ss["index_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm42 = function() {
+	this.initialize(ss["index_atlas_12"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm43 = function() {
+	this.initialize(ss["index_atlas_13"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm51 = function() {
+	this.initialize(ss["index_atlas_13"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm52 = function() {
+	this.initialize(ss["index_atlas_14"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm53 = function() {
+	this.initialize(ss["index_atlas_14"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm61 = function() {
+	this.initialize(ss["index_atlas_15"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm62 = function() {
+	this.initialize(ss["index_atlas_15"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim1sm63 = function() {
+	this.initialize(ss["index_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm11 = function() {
+	this.initialize(ss["index_atlas_16"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm12 = function() {
+	this.initialize(ss["index_atlas_17"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm13 = function() {
+	this.initialize(ss["index_atlas_17"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm21 = function() {
+	this.initialize(ss["index_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm22 = function() {
+	this.initialize(ss["index_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm31 = function() {
+	this.initialize(ss["index_atlas_18"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm32 = function() {
+	this.initialize(ss["index_atlas_19"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm33 = function() {
+	this.initialize(ss["index_atlas_19"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm34 = function() {
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm41 = function() {
+	this.initialize(ss["index_atlas_20"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm42 = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim2sm5 = function() {
+	this.initialize(ss["index_atlas_21"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim31 = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim32 = function() {
+	this.initialize(ss["index_atlas_4"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.materim33 = function() {
+	this.initialize(ss["index_atlas_22"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 (lib.materim4sm11 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm12 = function() {
-	this.initialize(ss["index_atlas_8"]);
+	this.initialize(ss["index_atlas_23"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm13 = function() {
-	this.initialize(ss["index_atlas_7"]);
+	this.initialize(ss["index_atlas_24"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm21 = function() {
-	this.initialize(ss["index_atlas_7"]);
+	this.initialize(ss["index_atlas_24"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm22 = function() {
-	this.initialize(ss["index_atlas_6"]);
+	this.initialize(ss["index_atlas_25"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm23 = function() {
-	this.initialize(ss["index_atlas_6"]);
+	this.initialize(ss["index_atlas_25"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.materim4sm24 = function() {
-	this.initialize(ss["index_atlas_5"]);
+	this.initialize(ss["index_atlas_26"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.mencoba = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.next = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(32);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.panduanpengguna2 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.perseratus = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(33);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.prev = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(34);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.selamat = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(35);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.skorakhir = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(36);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.skor = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(37);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal10 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal2 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal3 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal4 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal5 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal6 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal7 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal8 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.soal9 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["index_atlas_28"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri1_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri1_2 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri2 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri2_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri2_2 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri3 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri3_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri4 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri4_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri5 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri5_1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.submateri6 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.teks1 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["index_atlas_29"]);
 	this.gotoAndStop(24);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.teks2 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(38);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombola = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(39);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolabout = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolb = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolc = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombold = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolhome = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolmateri = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolmulaikuis = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolquiz = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.tombolstart = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy11 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy13 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy15 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(51);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy17 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(52);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy19 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(53);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy21 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(54);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy23 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(55);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy25 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(56);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy7 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(57);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Videocopy9 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["index_atlas_30"]);
 	this.gotoAndStop(58);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -4622,6 +4622,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(0);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_about2.addEventListener("click", fl_ClickToGoToAndStopAtFrame_155.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_155()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_4 = function() {
 		/* Stop at This Frame
@@ -5073,6 +5091,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(33);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1.addEventListener("click", fl_ClickToGoToAndStopAtFrame_156.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_156()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_17 = function() {
 		/* Stop at This Frame
@@ -5115,6 +5151,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_58()
 		{
 			this.gotoAndStop(18);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm11.addEventListener("click", fl_ClickToGoToAndStopAtFrame_157.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_157()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_18 = function() {
@@ -5159,6 +5213,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(17);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_158.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_158()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_159.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_159()
+		{
+			this.gotoAndStop(16);
+		}
 	}
 	this.frame_19 = function() {
 		/* Stop at This Frame
@@ -5201,6 +5291,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_62()
 		{
 			this.gotoAndStop(18);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm13.addEventListener("click", fl_ClickToGoToAndStopAtFrame_160.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_160()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm13.addEventListener("click", fl_ClickToGoToAndStopAtFrame_161.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_161()
+		{
+			this.gotoAndStop(16);
 		}
 	}
 	this.frame_20 = function() {
@@ -5246,6 +5372,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(60);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm14.addEventListener("click", fl_ClickToGoToAndStopAtFrame_162.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_162()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm14.addEventListener("click", fl_ClickToGoToAndStopAtFrame_163.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_163()
+		{
+			this.gotoAndStop(16);
+		}
 	}
 	this.frame_21 = function() {
 		/* Stop at This Frame
@@ -5289,6 +5451,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(22);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm21.addEventListener("click", fl_ClickToGoToAndStopAtFrame_164.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_164()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_22 = function() {
 		/* Stop at This Frame
@@ -5331,6 +5511,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_66()
 		{
 			this.gotoAndStop(21);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_166.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_166()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_167.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_167()
+		{
+			this.gotoAndStop(16);
 		}
 	}
 	this.frame_23 = function() {
@@ -5385,6 +5601,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(61);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm23.addEventListener("click", fl_ClickToGoToAndStopAtFrame_168.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_168()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm23.addEventListener("click", fl_ClickToGoToAndStopAtFrame_169.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_169()
+		{
+			this.gotoAndStop(16);
+		}
 	}
 	this.frame_24 = function() {
 		/* Stop at This Frame
@@ -5428,6 +5680,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(25);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm31.addEventListener("click", fl_ClickToGoToAndStopAtFrame_170.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_170()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_25 = function() {
 		/* Stop at This Frame
@@ -5470,6 +5740,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_70()
 		{
 			this.gotoAndStop(24);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_173.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_173()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_174.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_174()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_26 = function() {
@@ -5515,6 +5821,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(62);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm33.addEventListener("click", fl_ClickToGoToAndStopAtFrame_175.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_175()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm33.addEventListener("click", fl_ClickToGoToAndStopAtFrame_176.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_176()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_27 = function() {
 		/* Stop at This Frame
@@ -5558,6 +5900,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(28);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm41.addEventListener("click", fl_ClickToGoToAndStopAtFrame_177.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_177()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_28 = function() {
 		/* Stop at This Frame
@@ -5600,6 +5960,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_74()
 		{
 			this.gotoAndStop(27);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm42.addEventListener("click", fl_ClickToGoToAndStopAtFrame_178.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_178()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm42.addEventListener("click", fl_ClickToGoToAndStopAtFrame_179.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_179()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_29 = function() {
@@ -5645,6 +6041,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(63);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm43.addEventListener("click", fl_ClickToGoToAndStopAtFrame_180.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_180()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm43.addEventListener("click", fl_ClickToGoToAndStopAtFrame_181.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_181()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_30 = function() {
 		/* Stop at This Frame
@@ -5688,6 +6120,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(31);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm51.addEventListener("click", fl_ClickToGoToAndStopAtFrame_182.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_182()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_31 = function() {
 		/* Stop at This Frame
@@ -5730,6 +6180,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_78()
 		{
 			this.gotoAndStop(30);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm52.addEventListener("click", fl_ClickToGoToAndStopAtFrame_183.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_183()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm52.addEventListener("click", fl_ClickToGoToAndStopAtFrame_184.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_184()
+		{
+			this.gotoAndStop(16);
 		}
 	}
 	this.frame_32 = function() {
@@ -5776,6 +6262,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(64);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm53.addEventListener("click", fl_ClickToGoToAndStopAtFrame_185.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_185()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm53.addEventListener("click", fl_ClickToGoToAndStopAtFrame_186.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_186()
+		{
+			this.gotoAndStop(16);
+		}
 	}
 	this.frame_33 = function() {
 		/* Stop at This Frame
@@ -5819,6 +6341,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(34);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm61.addEventListener("click", fl_ClickToGoToAndStopAtFrame_187.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_187()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_34 = function() {
 		/* Stop at This Frame
@@ -5861,6 +6401,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_82()
 		{
 			this.gotoAndStop(33);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm62.addEventListener("click", fl_ClickToGoToAndStopAtFrame_188.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_188()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm62.addEventListener("click", fl_ClickToGoToAndStopAtFrame_189.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_189()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_35 = function() {
@@ -5906,6 +6482,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_137()
 		{
 			this.gotoAndStop(65);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m1sm63.addEventListener("click", fl_ClickToGoToAndStopAtFrame_190.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_190()
+		{
+			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm63.addEventListener("click", fl_ClickToGoToAndStopAtFrame_191.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_191()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_36 = function() {
@@ -6022,6 +6634,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(48);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2.addEventListener("click", fl_ClickToGoToAndStopAtFrame_192.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_192()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_37 = function() {
 		/* Stop at This Frame
@@ -6065,6 +6695,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(38);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm11.addEventListener("click", fl_ClickToGoToAndStopAtFrame_193.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_193()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_38 = function() {
 		/* Stop at This Frame
@@ -6107,6 +6755,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_91()
 		{
 			this.gotoAndStop(37);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_194.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_194()
+		{
+			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_195.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_195()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_39 = function() {
@@ -6153,6 +6837,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(66);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm13.addEventListener("click", fl_ClickToGoToAndStopAtFrame_196.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_196()
+		{
+			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm13.addEventListener("click", fl_ClickToGoToAndStopAtFrame_197.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_197()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_40 = function() {
 		/* Stop at This Frame
@@ -6195,6 +6915,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_93()
 		{
 			this.gotoAndStop(41);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm21.addEventListener("click", fl_ClickToGoToAndStopAtFrame_198.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_198()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_41 = function() {
@@ -6241,6 +6979,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(67);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_199.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_199()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_200.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_200()
+		{
+			this.gotoAndStop(36);
+		}
 	}
 	this.frame_42 = function() {
 		/* Stop at This Frame
@@ -6283,6 +7057,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_95()
 		{
 			this.gotoAndStop(43);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm31.addEventListener("click", fl_ClickToGoToAndStopAtFrame_201.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_201()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_43 = function() {
@@ -6327,6 +7119,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(42);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_202.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_202()
+		{
+			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_203.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_203()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_44 = function() {
 		/* Stop at This Frame
@@ -6369,6 +7197,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_99()
 		{
 			this.gotoAndStop(43);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm33.addEventListener("click", fl_ClickToGoToAndStopAtFrame_204.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_204()
+		{
+			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm33.addEventListener("click", fl_ClickToGoToAndStopAtFrame_205.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_205()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_45 = function() {
@@ -6415,6 +7279,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(68);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm34.addEventListener("click", fl_ClickToGoToAndStopAtFrame_206.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_206()
+		{
+			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm34.addEventListener("click", fl_ClickToGoToAndStopAtFrame_207.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_207()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_46 = function() {
 		/* Stop at This Frame
@@ -6457,6 +7357,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_101()
 		{
 			this.gotoAndStop(47);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm41.addEventListener("click", fl_ClickToGoToAndStopAtFrame_208.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_208()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_47 = function() {
@@ -6503,6 +7421,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(69);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm42.addEventListener("click", fl_ClickToGoToAndStopAtFrame_209.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_209()
+		{
+			this.gotoAndStop(0);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m2sm42.addEventListener("click", fl_ClickToGoToAndStopAtFrame_210.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_210()
+		{
+			this.gotoAndStop(36);
+		}
 	}
 	this.frame_48 = function() {
 		/* Stop at This Frame
@@ -6545,6 +7499,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_152()
 		{
 			this.gotoAndStop(70);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm51.addEventListener("click", fl_ClickToGoToAndStopAtFrame_211.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_211()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_49 = function() {
@@ -6589,6 +7561,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(50);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m31.addEventListener("click", fl_ClickToGoToAndStopAtFrame_212.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_212()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_50 = function() {
 		/* Stop at This Frame
@@ -6632,6 +7622,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(49);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_213.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_213()
+		{
+			this.gotoAndStop(1);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m32.addEventListener("click", fl_ClickToGoToAndStopAtFrame_214.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_214()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_51 = function() {
 		/* Stop at This Frame
@@ -6674,6 +7700,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_106()
 		{
 			this.gotoAndStop(50);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m33.addEventListener("click", fl_ClickToGoToAndStopAtFrame_215.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_215()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_52 = function() {
@@ -6736,6 +7780,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(56);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4.addEventListener("click", fl_ClickToGoToAndStopAtFrame_216.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_216()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_53 = function() {
 		/* Stop at This Frame
@@ -6778,6 +7840,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_109()
 		{
 			this.gotoAndStop(54);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm11.addEventListener("click", fl_ClickToGoToAndStopAtFrame_217.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_217()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_54 = function() {
@@ -6822,6 +7902,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(53);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m4sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_218.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_218()
+		{
+			this.gotoAndStop(52);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm12.addEventListener("click", fl_ClickToGoToAndStopAtFrame_219.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_219()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_55 = function() {
 		/* Stop at This Frame
@@ -6864,6 +7980,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_112()
 		{
 			this.gotoAndStop(54);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm13.addEventListener("click", fl_ClickToGoToAndStopAtFrame_220.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_220()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_56 = function() {
@@ -6908,6 +8042,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(57);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm21.addEventListener("click", fl_ClickToGoToAndStopAtFrame_221.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_221()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_57 = function() {
 		/* Stop at This Frame
@@ -6950,6 +8102,42 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_115()
 		{
 			this.gotoAndStop(56);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m4sm21.addEventListener("click", fl_ClickToGoToAndStopAtFrame_222.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_222()
+		{
+			this.gotoAndStop(52);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm21.addEventListener("click", fl_ClickToGoToAndStopAtFrame_223.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_223()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_58 = function() {
@@ -6994,6 +8182,42 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(57);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_materi_m4sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_224.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_224()
+		{
+			this.gotoAndStop(52);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm22.addEventListener("click", fl_ClickToGoToAndStopAtFrame_225.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_225()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_59 = function() {
 		/* Stop at This Frame
@@ -7037,6 +8261,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(58);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m4sm23.addEventListener("click", fl_ClickToGoToAndStopAtFrame_226.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_226()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_60 = function() {
 		/* Click to Go to Frame and Stop
@@ -7072,6 +8314,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_124()
 		{
 			this.gotoAndStop(20);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm15.addEventListener("click", fl_ClickToGoToAndStopAtFrame_227.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_227()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_61 = function() {
@@ -7116,6 +8376,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(16);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm24.addEventListener("click", fl_ClickToGoToAndStopAtFrame_228.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_228()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_62 = function() {
 		/* Stop at This Frame
@@ -7158,6 +8436,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_130()
 		{
 			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm34.addEventListener("click", fl_ClickToGoToAndStopAtFrame_229.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_229()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_63 = function() {
@@ -7202,6 +8498,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(16);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm44.addEventListener("click", fl_ClickToGoToAndStopAtFrame_230.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_230()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_64 = function() {
 		/* Stop at This Frame
@@ -7244,6 +8558,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_136()
 		{
 			this.gotoAndStop(16);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm54.addEventListener("click", fl_ClickToGoToAndStopAtFrame_231.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_231()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_65 = function() {
@@ -7288,6 +8620,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(16);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m1sm64.addEventListener("click", fl_ClickToGoToAndStopAtFrame_232.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_232()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_66 = function() {
 		/* Stop at This Frame
@@ -7330,6 +8680,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_142()
 		{
 			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm14.addEventListener("click", fl_ClickToGoToAndStopAtFrame_233.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_233()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_67 = function() {
@@ -7374,6 +8742,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(41);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm23.addEventListener("click", fl_ClickToGoToAndStopAtFrame_234.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_234()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_68 = function() {
 		/* Stop at This Frame
@@ -7416,6 +8802,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_148()
 		{
 			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm35.addEventListener("click", fl_ClickToGoToAndStopAtFrame_235.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_235()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 	this.frame_69 = function() {
@@ -7460,6 +8864,24 @@ if (reversed == null) { reversed = false; }
 		{
 			this.gotoAndStop(36);
 		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm43.addEventListener("click", fl_ClickToGoToAndStopAtFrame_236.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_236()
+		{
+			this.gotoAndStop(0);
+		}
 	}
 	this.frame_70 = function() {
 		/* Stop at This Frame
@@ -7502,6 +8924,24 @@ if (reversed == null) { reversed = false; }
 		function fl_ClickToGoToAndStopAtFrame_154()
 		{
 			this.gotoAndStop(36);
+		}
+		
+		
+		/* Click to Go to Frame and Stop
+		Clicking on the specified symbol instance moves the playhead to the specified frame in the timeline and stops the movie.
+		Can be used on the main timeline or on movie clip timelines.
+		
+		Instructions:
+		1. Replace the number 5 in the code below with the frame number you would like the playhead to move to when the symbol instance is clicked.
+		2.Frame numbers in EaselJS start at 0 instead of 1
+		*/
+		
+		
+		this.btn_home_m2sm52.addEventListener("click", fl_ClickToGoToAndStopAtFrame_237.bind(this));
+		
+		function fl_ClickToGoToAndStopAtFrame_237()
+		{
+			this.gotoAndStop(0);
 		}
 	}
 
@@ -7605,6 +9045,11 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_5 = new lib.isiabout1_1("synched",0);
 	this.instance_5.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_about2 = new lib.home();
+	this.btn_home_about2.name = "btn_home_about2";
+	this.btn_home_about2.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_about2, 0, 1, 2, false, new lib.home(), 3);
 
 	this.btn_prev_about2 = new lib.btn_prev();
 	this.btn_prev_about2.name = "btn_prev_about2";
@@ -7966,9 +9411,14 @@ if (reversed == null) { reversed = false; }
 	this.btn_home_kuis_akhir.setTransform(117,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_home_kuis_akhir, 0, 1, 2, false, new lib.home(), 3);
 
+	this.btn_home_m1 = new lib.home();
+	this.btn_home_m1.name = "btn_home_m1";
+	this.btn_home_m1.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1 = new lib.btn_materi();
 	this.btn_materi_m1.name = "btn_materi_m1";
-	this.btn_materi_m1.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.m1sm6 = new lib.m1sm6();
@@ -8004,9 +9454,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_46 = new lib.judulmateri1_1("synched",0);
 	this.instance_46.setTransform(960,165.5,1,1,0,0,0,476,66.5);
 
+	this.btn_home_m1sm11 = new lib.home();
+	this.btn_home_m1sm11.name = "btn_home_m1sm11";
+	this.btn_home_m1sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm11, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm11 = new lib.btn_materi();
 	this.btn_materi_m1sm11.name = "btn_materi_m1sm11";
-	this.btn_materi_m1sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm11.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm11, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m1sm11 = new lib.btn_next();
@@ -8019,6 +9474,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_48 = new lib.materim1sm11_1("synched",0);
 	this.instance_48.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m1sm12 = new lib.home();
+	this.btn_home_m1sm12.name = "btn_home_m1sm12";
+	this.btn_home_m1sm12.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm12, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm12 = new lib.btn_materi();
+	this.btn_materi_m1sm12.name = "btn_materi_m1sm12";
+	this.btn_materi_m1sm12.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm12, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m1sm12 = new lib.btn_next();
 	this.btn_next_m1sm12.name = "btn_next_m1sm12";
@@ -8033,6 +9498,16 @@ if (reversed == null) { reversed = false; }
 	this.instance_49 = new lib.materim1sm12_1("synched",0);
 	this.instance_49.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm13 = new lib.home();
+	this.btn_home_m1sm13.name = "btn_home_m1sm13";
+	this.btn_home_m1sm13.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm13, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm13 = new lib.btn_materi();
+	this.btn_materi_m1sm13.name = "btn_materi_m1sm13";
+	this.btn_materi_m1sm13.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm13, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm13 = new lib.btn_next();
 	this.btn_next_m1sm13.name = "btn_next_m1sm13";
 	this.btn_next_m1sm13.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8045,6 +9520,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_50 = new lib.materim1sm13_1("synched",0);
 	this.instance_50.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m1sm14 = new lib.home();
+	this.btn_home_m1sm14.name = "btn_home_m1sm14";
+	this.btn_home_m1sm14.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm14, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm14 = new lib.btn_materi();
+	this.btn_materi_m1sm14.name = "btn_materi_m1sm14";
+	this.btn_materi_m1sm14.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm14, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m1sm14 = new lib.btn_next();
 	this.btn_next_m1sm14.name = "btn_next_m1sm14";
@@ -8059,9 +9544,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_51 = new lib.materim1sm14_1("synched",0);
 	this.instance_51.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm21 = new lib.home();
+	this.btn_home_m1sm21.name = "btn_home_m1sm21";
+	this.btn_home_m1sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm21, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm21 = new lib.btn_materi();
 	this.btn_materi_m1sm21.name = "btn_materi_m1sm21";
-	this.btn_materi_m1sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm21.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm21, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_52 = new lib.judulm1sm2_1("synched",0);
@@ -8074,6 +9564,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_next_m1sm21.name = "btn_next_m1sm21";
 	this.btn_next_m1sm21.setTransform(1739,38);
 	new cjs.ButtonHelper(this.btn_next_m1sm21, 0, 1, 1);
+
+	this.btn_home_m1sm22 = new lib.home();
+	this.btn_home_m1sm22.name = "btn_home_m1sm22";
+	this.btn_home_m1sm22.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm22, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm22 = new lib.btn_materi();
+	this.btn_materi_m1sm22.name = "btn_materi_m1sm22";
+	this.btn_materi_m1sm22.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm22, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_54 = new lib.materim1sm22_1("synched",0);
 	this.instance_54.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8088,6 +9588,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm22.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm22, 0, 1, 1);
 
+	this.btn_home_m1sm23 = new lib.home();
+	this.btn_home_m1sm23.name = "btn_home_m1sm23";
+	this.btn_home_m1sm23.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm23, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm23 = new lib.btn_materi();
+	this.btn_materi_m1sm23.name = "btn_materi_m1sm23";
+	this.btn_materi_m1sm23.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm23, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm23 = new lib.btn_next();
 	this.btn_next_m1sm23.name = "btn_next_m1sm23";
 	this.btn_next_m1sm23.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8101,9 +9611,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_55 = new lib.materim1sm23_1("synched",0);
 	this.instance_55.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm31 = new lib.home();
+	this.btn_home_m1sm31.name = "btn_home_m1sm31";
+	this.btn_home_m1sm31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm31, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm31 = new lib.btn_materi();
 	this.btn_materi_m1sm31.name = "btn_materi_m1sm31";
-	this.btn_materi_m1sm31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm31.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm31, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_56 = new lib.materim1sm31_1("synched",0);
@@ -8116,6 +9631,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_57 = new lib.judulm1sm3_1("synched",0);
 	this.instance_57.setTransform(960,96,1,1,0,0,0,489,38);
+
+	this.btn_home_m1sm32 = new lib.home();
+	this.btn_home_m1sm32.name = "btn_home_m1sm32";
+	this.btn_home_m1sm32.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm32, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm32 = new lib.btn_materi();
+	this.btn_materi_m1sm32.name = "btn_materi_m1sm32";
+	this.btn_materi_m1sm32.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm32, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_58 = new lib.materim1sm32_1("synched",0);
 	this.instance_58.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8130,6 +9655,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm32.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm32, 0, 1, 1);
 
+	this.btn_home_m1sm33 = new lib.home();
+	this.btn_home_m1sm33.name = "btn_home_m1sm33";
+	this.btn_home_m1sm33.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm33, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm33 = new lib.btn_materi();
+	this.btn_materi_m1sm33.name = "btn_materi_m1sm33";
+	this.btn_materi_m1sm33.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm33, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm33 = new lib.btn_next();
 	this.btn_next_m1sm33.name = "btn_next_m1sm33";
 	this.btn_next_m1sm33.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8143,9 +9678,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_59 = new lib.materim1sm33_1("synched",0);
 	this.instance_59.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm41 = new lib.home();
+	this.btn_home_m1sm41.name = "btn_home_m1sm41";
+	this.btn_home_m1sm41.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm41, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm41 = new lib.btn_materi();
 	this.btn_materi_m1sm41.name = "btn_materi_m1sm41";
-	this.btn_materi_m1sm41.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm41.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm41, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_60 = new lib.materim1sm41_1("synched",0);
@@ -8158,6 +9698,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_61 = new lib.judulm1sm4_1("synched",0);
 	this.instance_61.setTransform(960.5,96,1,1,0,0,0,490.5,38);
+
+	this.btn_home_m1sm42 = new lib.home();
+	this.btn_home_m1sm42.name = "btn_home_m1sm42";
+	this.btn_home_m1sm42.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm42, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm42 = new lib.btn_materi();
+	this.btn_materi_m1sm42.name = "btn_materi_m1sm42";
+	this.btn_materi_m1sm42.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm42, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_62 = new lib.materim1sm42_1("synched",0);
 	this.instance_62.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8172,6 +9722,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm42.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm42, 0, 1, 1);
 
+	this.btn_home_m1sm43 = new lib.home();
+	this.btn_home_m1sm43.name = "btn_home_m1sm43";
+	this.btn_home_m1sm43.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm43, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm43 = new lib.btn_materi();
+	this.btn_materi_m1sm43.name = "btn_materi_m1sm43";
+	this.btn_materi_m1sm43.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm43, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm43 = new lib.btn_next();
 	this.btn_next_m1sm43.name = "btn_next_m1sm43";
 	this.btn_next_m1sm43.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8185,9 +9745,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_63 = new lib.materim1sm43_1("synched",0);
 	this.instance_63.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm51 = new lib.home();
+	this.btn_home_m1sm51.name = "btn_home_m1sm51";
+	this.btn_home_m1sm51.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm51, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm51 = new lib.btn_materi();
 	this.btn_materi_m1sm51.name = "btn_materi_m1sm51";
-	this.btn_materi_m1sm51.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm51.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm51, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_64 = new lib.materim1sm51_1("synched",0);
@@ -8200,6 +9765,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_65 = new lib.judulm1sm5_1("synched",0);
 	this.instance_65.setTransform(960,96,1,1,0,0,0,490,38);
+
+	this.btn_home_m1sm52 = new lib.home();
+	this.btn_home_m1sm52.name = "btn_home_m1sm52";
+	this.btn_home_m1sm52.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm52, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm52 = new lib.btn_materi();
+	this.btn_materi_m1sm52.name = "btn_materi_m1sm52";
+	this.btn_materi_m1sm52.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm52, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_66 = new lib.materim1sm52_1("synched",0);
 	this.instance_66.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8214,6 +9789,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm52.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm52, 0, 1, 1);
 
+	this.btn_home_m1sm53 = new lib.home();
+	this.btn_home_m1sm53.name = "btn_home_m1sm53";
+	this.btn_home_m1sm53.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm53, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm53 = new lib.btn_materi();
+	this.btn_materi_m1sm53.name = "btn_materi_m1sm53";
+	this.btn_materi_m1sm53.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm53, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm53 = new lib.btn_next();
 	this.btn_next_m1sm53.name = "btn_next_m1sm53";
 	this.btn_next_m1sm53.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8227,9 +9812,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_67 = new lib.materim1sm53_1("synched",0);
 	this.instance_67.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm61 = new lib.home();
+	this.btn_home_m1sm61.name = "btn_home_m1sm61";
+	this.btn_home_m1sm61.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm61, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm61 = new lib.btn_materi();
 	this.btn_materi_m1sm61.name = "btn_materi_m1sm61";
-	this.btn_materi_m1sm61.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm61.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm61, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_68 = new lib.materim1sm61_1("synched",0);
@@ -8242,6 +9832,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_69 = new lib.judulm1sm6_1("synched",0);
 	this.instance_69.setTransform(960.5,96,1,1,0,0,0,489.5,38);
+
+	this.btn_home_m1sm62 = new lib.home();
+	this.btn_home_m1sm62.name = "btn_home_m1sm62";
+	this.btn_home_m1sm62.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm62, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm62 = new lib.btn_materi();
+	this.btn_materi_m1sm62.name = "btn_materi_m1sm62";
+	this.btn_materi_m1sm62.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm62, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_70 = new lib.materim1sm62_1("synched",0);
 	this.instance_70.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8256,6 +9856,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm62.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm62, 0, 1, 1);
 
+	this.btn_home_m1sm63 = new lib.home();
+	this.btn_home_m1sm63.name = "btn_home_m1sm63";
+	this.btn_home_m1sm63.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm63, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m1sm63 = new lib.btn_materi();
+	this.btn_materi_m1sm63.name = "btn_materi_m1sm63";
+	this.btn_materi_m1sm63.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m1sm63, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m1sm63 = new lib.btn_next();
 	this.btn_next_m1sm63.name = "btn_next_m1sm63";
 	this.btn_next_m1sm63.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8269,9 +9879,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_71 = new lib.materim1sm63_1("synched",0);
 	this.instance_71.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2 = new lib.home();
+	this.btn_home_m2.name = "btn_home_m2";
+	this.btn_home_m2.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m2 = new lib.btn_materi();
 	this.btn_materi_m2.name = "btn_materi_m2";
-	this.btn_materi_m2.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.m2sm5 = new lib.m2sm5();
@@ -8302,9 +9917,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_72 = new lib.judulmateri2_1("synched",0);
 	this.instance_72.setTransform(960,160.5,1,1,0,0,0,405,71.5);
 
+	this.btn_home_m2sm11 = new lib.home();
+	this.btn_home_m2sm11.name = "btn_home_m2sm11";
+	this.btn_home_m2sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm11, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m2sm11 = new lib.btn_materi();
 	this.btn_materi_m2sm11.name = "btn_materi_m2sm11";
-	this.btn_materi_m2sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm11.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm11, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_73 = new lib.materim2sm11_1("synched",0);
@@ -8317,6 +9937,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_next_m2sm11.name = "btn_next_m2sm11";
 	this.btn_next_m2sm11.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_next_m2sm11, 0, 1, 1);
+
+	this.btn_home_m2sm12 = new lib.home();
+	this.btn_home_m2sm12.name = "btn_home_m2sm12";
+	this.btn_home_m2sm12.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm12, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm12 = new lib.btn_materi();
+	this.btn_materi_m2sm12.name = "btn_materi_m2sm12";
+	this.btn_materi_m2sm12.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm12, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_75 = new lib.materim2sm12_1("synched",0);
 	this.instance_75.setTransform(960,607.5,1,1,0,0,0,911,422.5);
@@ -8331,6 +9961,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m2sm12.setTransform(1665.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m2sm12, 0, 1, 1);
 
+	this.btn_home_m2sm13 = new lib.home();
+	this.btn_home_m2sm13.name = "btn_home_m2sm13";
+	this.btn_home_m2sm13.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm13, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm13 = new lib.btn_materi();
+	this.btn_materi_m2sm13.name = "btn_materi_m2sm13";
+	this.btn_materi_m2sm13.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm13, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m2sm13 = new lib.btn_next();
 	this.btn_next_m2sm13.name = "btn_next_m2sm13";
 	this.btn_next_m2sm13.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8344,9 +9984,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_76 = new lib.materim2sm13_1("synched",0);
 	this.instance_76.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2sm21 = new lib.home();
+	this.btn_home_m2sm21.name = "btn_home_m2sm21";
+	this.btn_home_m2sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm21, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m2sm21 = new lib.btn_materi();
 	this.btn_materi_m2sm21.name = "btn_materi_m2sm21";
-	this.btn_materi_m2sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm21.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm21, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_77 = new lib.judulm2sm2_1("synched",0);
@@ -8359,6 +10004,16 @@ if (reversed == null) { reversed = false; }
 	this.btn_next_m2sm21.name = "btn_next_m2sm21";
 	this.btn_next_m2sm21.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_next_m2sm21, 0, 1, 1);
+
+	this.btn_home_m2sm22 = new lib.home();
+	this.btn_home_m2sm22.name = "btn_home_m2sm22";
+	this.btn_home_m2sm22.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm22, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm22 = new lib.btn_materi();
+	this.btn_materi_m2sm22.name = "btn_materi_m2sm22";
+	this.btn_materi_m2sm22.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm22, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm22 = new lib.btn_next();
 	this.btn_next_m2sm22.name = "btn_next_m2sm22";
@@ -8373,9 +10028,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_79 = new lib.materim2sm22_1("synched",0);
 	this.instance_79.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2sm31 = new lib.home();
+	this.btn_home_m2sm31.name = "btn_home_m2sm31";
+	this.btn_home_m2sm31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm31, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m2sm31 = new lib.btn_materi();
 	this.btn_materi_m2sm31.name = "btn_materi_m2sm31";
-	this.btn_materi_m2sm31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm31.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm31, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm31 = new lib.btn_next();
@@ -8388,6 +10048,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_81 = new lib.materim2sm31_1("synched",0);
 	this.instance_81.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m2sm32 = new lib.home();
+	this.btn_home_m2sm32.name = "btn_home_m2sm32";
+	this.btn_home_m2sm32.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm32, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm32 = new lib.btn_materi();
+	this.btn_materi_m2sm32.name = "btn_materi_m2sm32";
+	this.btn_materi_m2sm32.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm32, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm32 = new lib.btn_next();
 	this.btn_next_m2sm32.name = "btn_next_m2sm32";
@@ -8402,6 +10072,16 @@ if (reversed == null) { reversed = false; }
 	this.instance_82 = new lib.materim2sm32_1("synched",0);
 	this.instance_82.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2sm33 = new lib.home();
+	this.btn_home_m2sm33.name = "btn_home_m2sm33";
+	this.btn_home_m2sm33.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm33, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm33 = new lib.btn_materi();
+	this.btn_materi_m2sm33.name = "btn_materi_m2sm33";
+	this.btn_materi_m2sm33.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm33, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m2sm33 = new lib.btn_next();
 	this.btn_next_m2sm33.name = "btn_next_m2sm33";
 	this.btn_next_m2sm33.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8414,6 +10094,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_83 = new lib.materim2sm33_1("synched",0);
 	this.instance_83.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m2sm34 = new lib.home();
+	this.btn_home_m2sm34.name = "btn_home_m2sm34";
+	this.btn_home_m2sm34.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm34, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm34 = new lib.btn_materi();
+	this.btn_materi_m2sm34.name = "btn_materi_m2sm34";
+	this.btn_materi_m2sm34.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm34, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm34 = new lib.btn_next();
 	this.btn_next_m2sm34.name = "btn_next_m2sm34";
@@ -8428,9 +10118,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_84 = new lib.materim2sm34_1("synched",0);
 	this.instance_84.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2sm41 = new lib.home();
+	this.btn_home_m2sm41.name = "btn_home_m2sm41";
+	this.btn_home_m2sm41.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm41, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m2sm41 = new lib.btn_materi();
 	this.btn_materi_m2sm41.name = "btn_materi_m2sm41";
-	this.btn_materi_m2sm41.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm41.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm41, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm41 = new lib.btn_next();
@@ -8443,6 +10138,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_86 = new lib.materim2sm41_1("synched",0);
 	this.instance_86.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m2sm42 = new lib.home();
+	this.btn_home_m2sm42.name = "btn_home_m2sm42";
+	this.btn_home_m2sm42.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm42, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm42 = new lib.btn_materi();
+	this.btn_materi_m2sm42.name = "btn_materi_m2sm42";
+	this.btn_materi_m2sm42.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm42, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m2sm42 = new lib.btn_next();
 	this.btn_next_m2sm42.name = "btn_next_m2sm42";
@@ -8457,15 +10162,20 @@ if (reversed == null) { reversed = false; }
 	this.instance_87 = new lib.materim2sm42_1("synched",0);
 	this.instance_87.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m2sm51 = new lib.home();
+	this.btn_home_m2sm51.name = "btn_home_m2sm51";
+	this.btn_home_m2sm51.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm51, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m2sm51 = new lib.btn_materi();
+	this.btn_materi_m2sm51.name = "btn_materi_m2sm51";
+	this.btn_materi_m2sm51.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m2sm51, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m2sm51 = new lib.btn_next();
 	this.btn_next_m2sm51.name = "btn_next_m2sm51";
 	this.btn_next_m2sm51.setTransform(1804.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_next_m2sm51, 0, 1, 1);
-
-	this.btn_materi_m2sm5 = new lib.btn_materi();
-	this.btn_materi_m2sm5.name = "btn_materi_m2sm5";
-	this.btn_materi_m2sm5.setTransform(117,104.5,1,1,0,0,0,66,66.5);
-	new cjs.ButtonHelper(this.btn_materi_m2sm5, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.instance_88 = new lib.judulm2sm5_1("synched",0);
 	this.instance_88.setTransform(960.5,96,1,1,0,0,0,419.5,38);
@@ -8473,9 +10183,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_89 = new lib.materim2sm5_1("synched",0);
 	this.instance_89.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m31 = new lib.home();
+	this.btn_home_m31.name = "btn_home_m31";
+	this.btn_home_m31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m31, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m31 = new lib.btn_materi();
 	this.btn_materi_m31.name = "btn_materi_m31";
-	this.btn_materi_m31.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m31.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m31, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m31 = new lib.btn_next();
@@ -8488,6 +10203,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_91 = new lib.materim31_1("synched",0);
 	this.instance_91.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m32 = new lib.home();
+	this.btn_home_m32.name = "btn_home_m32";
+	this.btn_home_m32.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m32, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m32 = new lib.btn_materi();
+	this.btn_materi_m32.name = "btn_materi_m32";
+	this.btn_materi_m32.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m32, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m32 = new lib.btn_next();
 	this.btn_next_m32.name = "btn_next_m32";
@@ -8502,9 +10227,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_92 = new lib.materim32_1("synched",0);
 	this.instance_92.setTransform(960,607.5,1,1,0,0,0,937,422.5);
 
+	this.btn_home_m33 = new lib.home();
+	this.btn_home_m33.name = "btn_home_m33";
+	this.btn_home_m33.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m33, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m33 = new lib.btn_materi();
 	this.btn_materi_m33.name = "btn_materi_m33";
-	this.btn_materi_m33.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m33.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m33, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m33 = new lib.btn_prev();
@@ -8515,9 +10245,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_93 = new lib.materim33_1("synched",0);
 	this.instance_93.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m4 = new lib.home();
+	this.btn_home_m4.name = "btn_home_m4";
+	this.btn_home_m4.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m4 = new lib.btn_materi();
 	this.btn_materi_m4.name = "btn_materi_m4";
-	this.btn_materi_m4.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m4.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m4, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.m4sm2 = new lib.m4sm2();
@@ -8533,9 +10268,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_94 = new lib.judulmateri4_1("synched",0);
 	this.instance_94.setTransform(960,166.5,1,1,0,0,0,400,65.5);
 
+	this.btn_home_m4sm11 = new lib.home();
+	this.btn_home_m4sm11.name = "btn_home_m4sm11";
+	this.btn_home_m4sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm11, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m4sm11 = new lib.btn_materi();
 	this.btn_materi_m4sm11.name = "btn_materi_m4sm11";
-	this.btn_materi_m4sm11.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m4sm11.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m4sm11, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m4sm11 = new lib.btn_next();
@@ -8548,6 +10288,16 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_96 = new lib.materim4sm11_1("synched",0);
 	this.instance_96.setTransform(960,607.5,1,1,0,0,0,911,422.5);
+
+	this.btn_home_m4sm12 = new lib.home();
+	this.btn_home_m4sm12.name = "btn_home_m4sm12";
+	this.btn_home_m4sm12.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm12, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m4sm12 = new lib.btn_materi();
+	this.btn_materi_m4sm12.name = "btn_materi_m4sm12";
+	this.btn_materi_m4sm12.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m4sm12, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m4sm12 = new lib.btn_next();
 	this.btn_next_m4sm12.name = "btn_next_m4sm12";
@@ -8562,9 +10312,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_97 = new lib.materim4sm12_1("synched",0);
 	this.instance_97.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m4sm13 = new lib.home();
+	this.btn_home_m4sm13.name = "btn_home_m4sm13";
+	this.btn_home_m4sm13.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm13, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m4sm13 = new lib.btn_materi();
 	this.btn_materi_m4sm13.name = "btn_materi_m4sm13";
-	this.btn_materi_m4sm13.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m4sm13.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m4sm13, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m4sm13 = new lib.btn_prev();
@@ -8575,9 +10330,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_98 = new lib.materim4sm13_1("synched",0);
 	this.instance_98.setTransform(960,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m4sm21 = new lib.home();
+	this.btn_home_m4sm21.name = "btn_home_m4sm21";
+	this.btn_home_m4sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm21, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m4sm21 = new lib.btn_materi();
 	this.btn_materi_m4sm21.name = "btn_materi_m4sm21";
-	this.btn_materi_m4sm21.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m4sm21.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m4sm21, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_next_m4sm21 = new lib.btn_next();
@@ -8604,6 +10364,16 @@ if (reversed == null) { reversed = false; }
 	this.instance_101 = new lib.materim4sm22_1("synched",0);
 	this.instance_101.setTransform(962,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m4sm22 = new lib.home();
+	this.btn_home_m4sm22.name = "btn_home_m4sm22";
+	this.btn_home_m4sm22.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm22, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m4sm22 = new lib.btn_materi();
+	this.btn_materi_m4sm22.name = "btn_materi_m4sm22";
+	this.btn_materi_m4sm22.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m4sm22, 0, 1, 2, false, new lib.btn_materi(), 3);
+
 	this.btn_next_m4sm23 = new lib.btn_next();
 	this.btn_next_m4sm23.name = "btn_next_m4sm23";
 	this.btn_next_m4sm23.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
@@ -8617,10 +10387,15 @@ if (reversed == null) { reversed = false; }
 	this.instance_102 = new lib.materim4sm23_1("synched",0);
 	this.instance_102.setTransform(962,607.5,1,1,0,0,0,911,422.5);
 
-	this.btn_materi_m4sm24 = new lib.btn_materi();
-	this.btn_materi_m4sm24.name = "btn_materi_m4sm24";
-	this.btn_materi_m4sm24.setTransform(117,104.5,1,1,0,0,0,66,66.5);
-	new cjs.ButtonHelper(this.btn_materi_m4sm24, 0, 1, 2, false, new lib.btn_materi(), 3);
+	this.btn_home_m4sm23 = new lib.home();
+	this.btn_home_m4sm23.name = "btn_home_m4sm23";
+	this.btn_home_m4sm23.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m4sm23, 0, 1, 2, false, new lib.home(), 3);
+
+	this.btn_materi_m4sm23 = new lib.btn_materi();
+	this.btn_materi_m4sm23.name = "btn_materi_m4sm23";
+	this.btn_materi_m4sm23.setTransform(249,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_materi_m4sm23, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m4sm24 = new lib.btn_prev();
 	this.btn_prev_m4sm24.name = "btn_prev_m4sm24";
@@ -8630,9 +10405,14 @@ if (reversed == null) { reversed = false; }
 	this.instance_103 = new lib.materim4sm24_1("synched",0);
 	this.instance_103.setTransform(962,607.5,1,1,0,0,0,911,422.5);
 
+	this.btn_home_m1sm15 = new lib.home();
+	this.btn_home_m1sm15.name = "btn_home_m1sm15";
+	this.btn_home_m1sm15.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm15, 0, 1, 2, false, new lib.home(), 3);
+
 	this.btn_materi_m1sm15 = new lib.btn_materi();
 	this.btn_materi_m1sm15.name = "btn_materi_m1sm15";
-	this.btn_materi_m1sm15.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm15.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm15, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm15 = new lib.btn_prev();
@@ -8644,13 +10424,18 @@ if (reversed == null) { reversed = false; }
 
 	this.instance_104.setTransform(960.6,593.05,3.8962,2.9222,0,0,0,200.1,150);
 
+	this.btn_home_m1sm24 = new lib.home();
+	this.btn_home_m1sm24.name = "btn_home_m1sm24";
+	this.btn_home_m1sm24.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm24, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_105 = new lib.an_Video({'id': 'instance_105', 'src':'videos/2.%20Daftar%20Isi.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_105.setTransform(961.25,593.05,3.8911,2.9221,0,0,0,200,150);
 
 	this.btn_materi_m1sm24 = new lib.btn_materi();
 	this.btn_materi_m1sm24.name = "btn_materi_m1sm24";
-	this.btn_materi_m1sm24.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm24.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm24, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm24 = new lib.btn_prev();
@@ -8658,13 +10443,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm24.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm24, 0, 1, 1);
 
+	this.btn_home_m1sm34 = new lib.home();
+	this.btn_home_m1sm34.name = "btn_home_m1sm34";
+	this.btn_home_m1sm34.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm34, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_106 = new lib.an_Video({'id': 'instance_106', 'src':'videos/3.%20Daftar%20Tabel.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_106.setTransform(961.25,593.15,3.8911,2.9225,0,0,0,200,150);
 
 	this.btn_materi_m1sm34 = new lib.btn_materi();
 	this.btn_materi_m1sm34.name = "btn_materi_m1sm34";
-	this.btn_materi_m1sm34.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm34.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm34, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm34 = new lib.btn_prev();
@@ -8672,13 +10462,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm34.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm34, 0, 1, 1);
 
+	this.btn_home_m1sm44 = new lib.home();
+	this.btn_home_m1sm44.name = "btn_home_m1sm44";
+	this.btn_home_m1sm44.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm44, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_107 = new lib.an_Video({'id': 'instance_107', 'src':'videos/4.%20Daftar%20Gambar.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_107.setTransform(961.75,593.15,3.8916,2.9225,0,0,0,200.1,150);
 
 	this.btn_materi_m1sm44 = new lib.btn_materi();
 	this.btn_materi_m1sm44.name = "btn_materi_m1sm44";
-	this.btn_materi_m1sm44.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm44.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm44, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm44 = new lib.btn_prev();
@@ -8686,13 +10481,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm44.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm44, 0, 1, 1);
 
+	this.btn_home_m1sm54 = new lib.home();
+	this.btn_home_m1sm54.name = "btn_home_m1sm54";
+	this.btn_home_m1sm54.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm54, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_108 = new lib.an_Video({'id': 'instance_108', 'src':'videos/5.%20Daftar%20Lampiran.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_108.setTransform(961.25,593.15,3.8911,2.9225,0,0,0,200,150);
 
 	this.btn_materi_m1sm54 = new lib.btn_materi();
 	this.btn_materi_m1sm54.name = "btn_materi_m1sm54";
-	this.btn_materi_m1sm54.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm54.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm54, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm54 = new lib.btn_prev();
@@ -8700,13 +10500,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm54.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm54, 0, 1, 1);
 
+	this.btn_home_m1sm64 = new lib.home();
+	this.btn_home_m1sm64.name = "btn_home_m1sm64";
+	this.btn_home_m1sm64.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m1sm64, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_109 = new lib.an_Video({'id': 'instance_109', 'src':'videos/6.%20Styles.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_109.setTransform(961.25,593.15,3.8911,2.9225,0,0,0,200,150);
 
 	this.btn_materi_m1sm64 = new lib.btn_materi();
 	this.btn_materi_m1sm64.name = "btn_materi_m1sm64";
-	this.btn_materi_m1sm64.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m1sm64.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m1sm64, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m1sm64 = new lib.btn_prev();
@@ -8714,13 +10519,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m1sm64.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m1sm64, 0, 1, 1);
 
+	this.btn_home_m2sm14 = new lib.home();
+	this.btn_home_m2sm14.name = "btn_home_m2sm14";
+	this.btn_home_m2sm14.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm14, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_110 = new lib.an_Video({'id': 'instance_110', 'src':'videos/7.%20Pengaturan%20Halaman.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_110.setTransform(961.25,593.15,3.8911,2.9225,0,0,0,200,150);
 
 	this.btn_materi_m2sm14 = new lib.btn_materi();
 	this.btn_materi_m2sm14.name = "btn_materi_m2sm14";
-	this.btn_materi_m2sm14.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm14.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm14, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m2sm14 = new lib.btn_prev();
@@ -8728,13 +10538,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m2sm14.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m2sm14, 0, 1, 1);
 
+	this.btn_home_m2sm23 = new lib.home();
+	this.btn_home_m2sm23.name = "btn_home_m2sm23";
+	this.btn_home_m2sm23.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm23, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_111 = new lib.an_Video({'id': 'instance_111', 'src':'videos/8.%20Pengaturan%20Paragraf.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_111.setTransform(961.25,593.05,3.8911,2.9221,0,0,0,200,150);
 
 	this.btn_materi_m2sm23 = new lib.btn_materi();
 	this.btn_materi_m2sm23.name = "btn_materi_m2sm23";
-	this.btn_materi_m2sm23.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm23.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm23, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m2sm23 = new lib.btn_prev();
@@ -8742,13 +10557,18 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m2sm23.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m2sm23, 0, 1, 1);
 
+	this.btn_home_m2sm35 = new lib.home();
+	this.btn_home_m2sm35.name = "btn_home_m2sm35";
+	this.btn_home_m2sm35.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm35, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_112 = new lib.an_Video({'id': 'instance_112', 'src':'videos/9.%20Huruf.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_112.setTransform(961.25,593.05,3.8911,2.9221,0,0,0,200,150);
 
 	this.btn_materi_m2sm35 = new lib.btn_materi();
 	this.btn_materi_m2sm35.name = "btn_materi_m2sm35";
-	this.btn_materi_m2sm35.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm35.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm35, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m2sm35 = new lib.btn_prev();
@@ -8756,19 +10576,29 @@ if (reversed == null) { reversed = false; }
 	this.btn_prev_m2sm35.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m2sm35, 0, 1, 1);
 
+	this.btn_home_m2sm43 = new lib.home();
+	this.btn_home_m2sm43.name = "btn_home_m2sm43";
+	this.btn_home_m2sm43.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm43, 0, 1, 2, false, new lib.home(), 3);
+
 	this.instance_113 = new lib.an_Video({'id': 'instance_113', 'src':'videos/10.%20Bold%20dan%20Huruf%20Kapital.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
 	this.instance_113.setTransform(961.25,593.3,3.8911,2.9216,0,0,0,200,150.1);
 
 	this.btn_materi_m2sm43 = new lib.btn_materi();
 	this.btn_materi_m2sm43.name = "btn_materi_m2sm43";
-	this.btn_materi_m2sm43.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm43.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm43, 0, 1, 2, false, new lib.btn_materi(), 3);
 
 	this.btn_prev_m2sm43 = new lib.btn_prev();
 	this.btn_prev_m2sm43.name = "btn_prev_m2sm43";
 	this.btn_prev_m2sm43.setTransform(1805.5,104.5,1,1,0,0,0,66.5,66.5);
 	new cjs.ButtonHelper(this.btn_prev_m2sm43, 0, 1, 1);
+
+	this.btn_home_m2sm52 = new lib.home();
+	this.btn_home_m2sm52.name = "btn_home_m2sm52";
+	this.btn_home_m2sm52.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	new cjs.ButtonHelper(this.btn_home_m2sm52, 0, 1, 2, false, new lib.home(), 3);
 
 	this.instance_114 = new lib.an_Video({'id': 'instance_114', 'src':'videos/11.%20Italic.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'', 'preload':true, 'class':'video'});
 
@@ -8781,10 +10611,10 @@ if (reversed == null) { reversed = false; }
 
 	this.btn_materi_m2sm52 = new lib.btn_materi();
 	this.btn_materi_m2sm52.name = "btn_materi_m2sm52";
-	this.btn_materi_m2sm52.setTransform(117,104.5,1,1,0,0,0,66,66.5);
+	this.btn_materi_m2sm52.setTransform(249,104.5,1,1,0,0,0,66,66.5);
 	new cjs.ButtonHelper(this.btn_materi_m2sm52, 0, 1, 2, false, new lib.btn_materi(), 3);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_mulai},{t:this.btn_kuis},{t:this.btn_tentang},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.btn_home},{t:this.btn_materi1},{t:this.btn_materi2},{t:this.btn_materi3},{t:this.btn_materi4}]},1).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.btn_home_about1},{t:this.btn_next_about1}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.btn_prev_about2}]},1).to({state:[{t:this.btn_home_kuis},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.tombol_a},{t:this.tombol_b},{t:this.tombol_c},{t:this.tombol_d},{t:this.mulai_kuis}]},1).to({state:[{t:this.instance_10},{t:this.a1},{t:this.b1},{t:this.c1},{t:this.d1},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12}]},1).to({state:[{t:this.instance_10},{t:this.instance_12},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.a2},{t:this.b2},{t:this.c2},{t:this.d2}]},1).to({state:[{t:this.instance_10},{t:this.a3},{t:this.b3},{t:this.c3},{t:this.d3},{t:this.instance_12},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19}]},1).to({state:[{t:this.instance_10},{t:this.a4},{t:this.b4},{t:this.c4},{t:this.d4},{t:this.instance_12},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22}]},1).to({state:[{t:this.instance_10},{t:this.a5},{t:this.b5},{t:this.c5},{t:this.d5},{t:this.instance_12},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25}]},1).to({state:[{t:this.instance_10},{t:this.a6},{t:this.b6},{t:this.c6},{t:this.d6},{t:this.instance_12},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28}]},1).to({state:[{t:this.instance_10},{t:this.a7},{t:this.b7},{t:this.c7},{t:this.d7},{t:this.instance_12},{t:this.instance_33},{t:this.instance_32},{t:this.instance_31}]},1).to({state:[{t:this.instance_10},{t:this.a8},{t:this.b8},{t:this.c8},{t:this.d8},{t:this.instance_12},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34}]},1).to({state:[{t:this.instance_10},{t:this.a9},{t:this.b9},{t:this.c9},{t:this.d9},{t:this.instance_12},{t:this.instance_39},{t:this.instance_38},{t:this.instance_37}]},1).to({state:[{t:this.instance_10},{t:this.a10},{t:this.b10},{t:this.c10},{t:this.d10},{t:this.instance_12},{t:this.instance_42},{t:this.instance_41},{t:this.instance_40}]},1).to({state:[{t:this.instance_10},{t:this.btn_home_kuis_akhir},{t:this.instance_45},{t:this.instance_44},{t:this.instance_43}]},1).to({state:[{t:this.instance_46},{t:this.m1sm1},{t:this.m1sm2},{t:this.m1sm3},{t:this.m1sm4},{t:this.m1sm5},{t:this.m1sm6},{t:this.btn_materi_m1}]},1).to({state:[{t:this.instance_48},{t:this.instance_47},{t:this.btn_next_m1sm11},{t:this.btn_materi_m1sm11}]},1).to({state:[{t:this.instance_49},{t:this.instance_47},{t:this.btn_prev_m1sm12},{t:this.btn_next_m1sm12}]},1).to({state:[{t:this.instance_50},{t:this.instance_47},{t:this.btn_prev_m1sm13},{t:this.btn_next_m1sm13}]},1).to({state:[{t:this.instance_51},{t:this.instance_47},{t:this.btn_prev_m1sm14},{t:this.btn_next_m1sm14}]},1).to({state:[{t:this.btn_next_m1sm21},{t:this.instance_53},{t:this.instance_52},{t:this.btn_materi_m1sm21}]},1).to({state:[{t:this.btn_prev_m1sm22},{t:this.btn_next_m1sm22},{t:this.instance_54},{t:this.instance_52}]},1).to({state:[{t:this.instance_55},{t:this.instance_52},{t:this.btn_prev_m1sm23},{t:this.btn_next_m1sm23}]},1).to({state:[{t:this.instance_57},{t:this.btn_next_m1sm31},{t:this.instance_56},{t:this.btn_materi_m1sm31}]},1).to({state:[{t:this.instance_57},{t:this.btn_prev_m1sm32},{t:this.btn_next_m1sm32},{t:this.instance_58}]},1).to({state:[{t:this.instance_57},{t:this.instance_59},{t:this.btn_prev_m1sm33},{t:this.btn_next_m1sm33}]},1).to({state:[{t:this.instance_61},{t:this.btn_next_m1sm41},{t:this.instance_60},{t:this.btn_materi_m1sm41}]},1).to({state:[{t:this.instance_61},{t:this.btn_prev_m1sm42},{t:this.btn_next_m1sm42},{t:this.instance_62}]},1).to({state:[{t:this.instance_61},{t:this.instance_63},{t:this.btn_prev_m1sm43},{t:this.btn_next_m1sm43}]},1).to({state:[{t:this.instance_65},{t:this.btn_next_m1sm51},{t:this.instance_64},{t:this.btn_materi_m1sm51}]},1).to({state:[{t:this.instance_65},{t:this.btn_prev_m1sm52},{t:this.btn_next_m1sm52},{t:this.instance_66}]},1).to({state:[{t:this.instance_65},{t:this.instance_67},{t:this.btn_prev_m1sm53},{t:this.btn_next_m1sm53}]},1).to({state:[{t:this.instance_69},{t:this.btn_next_m1sm61},{t:this.instance_68},{t:this.btn_materi_m1sm61}]},1).to({state:[{t:this.instance_69},{t:this.btn_prev_m1sm62},{t:this.btn_next_m1sm62},{t:this.instance_70}]},1).to({state:[{t:this.instance_69},{t:this.instance_71},{t:this.btn_prev_m1sm63},{t:this.btn_next_m1sm63}]},1).to({state:[{t:this.instance_72},{t:this.m2sm1},{t:this.m2sm2},{t:this.m2sm3},{t:this.m2sm4},{t:this.m2sm5},{t:this.btn_materi_m2}]},1).to({state:[{t:this.btn_next_m2sm11},{t:this.instance_74},{t:this.instance_73},{t:this.btn_materi_m2sm11}]},1).to({state:[{t:this.instance_74},{t:this.btn_prev_m2sm12},{t:this.btn_next_m2sm12},{t:this.instance_75}]},1).to({state:[{t:this.instance_74},{t:this.instance_76},{t:this.btn_prev_m2sm13},{t:this.btn_next_m2sm13}]},1).to({state:[{t:this.btn_next_m2sm21},{t:this.instance_78},{t:this.instance_77},{t:this.btn_materi_m2sm21}]},1).to({state:[{t:this.instance_79},{t:this.instance_77},{t:this.btn_prev_m2sm22},{t:this.btn_next_m2sm22}]},1).to({state:[{t:this.instance_81},{t:this.instance_80},{t:this.btn_next_m2sm31},{t:this.btn_materi_m2sm31}]},1).to({state:[{t:this.instance_82},{t:this.instance_80},{t:this.btn_prev_m2sm32},{t:this.btn_next_m2sm32}]},1).to({state:[{t:this.instance_83},{t:this.instance_80},{t:this.btn_prev_m2sm33},{t:this.btn_next_m2sm33}]},1).to({state:[{t:this.instance_84},{t:this.instance_80},{t:this.btn_prev_m2sm34},{t:this.btn_next_m2sm34}]},1).to({state:[{t:this.instance_86},{t:this.instance_85},{t:this.btn_next_m2sm41},{t:this.btn_materi_m2sm41}]},1).to({state:[{t:this.instance_87},{t:this.instance_85},{t:this.btn_prev_m2sm42},{t:this.btn_next_m2sm42}]},1).to({state:[{t:this.instance_89},{t:this.instance_88},{t:this.btn_materi_m2sm5},{t:this.btn_next_m2sm51}]},1).to({state:[{t:this.instance_91},{t:this.instance_90},{t:this.btn_next_m31},{t:this.btn_materi_m31}]},1).to({state:[{t:this.instance_92},{t:this.instance_90},{t:this.btn_prev_m32},{t:this.btn_next_m32}]},1).to({state:[{t:this.instance_93},{t:this.instance_90},{t:this.btn_prev_m33},{t:this.btn_materi_m33}]},1).to({state:[{t:this.instance_94},{t:this.m4sm1},{t:this.m4sm2},{t:this.btn_materi_m4}]},1).to({state:[{t:this.instance_96},{t:this.instance_95},{t:this.btn_next_m4sm11},{t:this.btn_materi_m4sm11}]},1).to({state:[{t:this.instance_97},{t:this.instance_95},{t:this.btn_prev_m4sm12},{t:this.btn_next_m4sm12}]},1).to({state:[{t:this.instance_98},{t:this.instance_95},{t:this.btn_prev_m4sm13},{t:this.btn_materi_m4sm13}]},1).to({state:[{t:this.instance_100},{t:this.instance_99},{t:this.btn_next_m4sm21},{t:this.btn_materi_m4sm21}]},1).to({state:[{t:this.instance_101},{t:this.instance_99},{t:this.btn_prev_m4sm22},{t:this.btn_next_m4sm22}]},1).to({state:[{t:this.instance_102},{t:this.instance_99},{t:this.btn_prev_m4sm23},{t:this.btn_next_m4sm23}]},1).to({state:[{t:this.instance_103},{t:this.instance_99},{t:this.btn_prev_m4sm24},{t:this.btn_materi_m4sm24}]},1).to({state:[{t:this.instance_104},{t:this.btn_prev_m1sm15},{t:this.btn_materi_m1sm15},{t:this.instance_47}]},1).to({state:[{t:this.btn_prev_m1sm24},{t:this.btn_materi_m1sm24},{t:this.instance_52},{t:this.instance_105}]},1).to({state:[{t:this.btn_prev_m1sm34},{t:this.instance_57},{t:this.btn_materi_m1sm34},{t:this.instance_106}]},1).to({state:[{t:this.btn_prev_m1sm44},{t:this.instance_61},{t:this.btn_materi_m1sm44},{t:this.instance_107}]},1).to({state:[{t:this.btn_prev_m1sm54},{t:this.instance_65},{t:this.btn_materi_m1sm54},{t:this.instance_108}]},1).to({state:[{t:this.btn_prev_m1sm64},{t:this.instance_69},{t:this.btn_materi_m1sm64},{t:this.instance_109}]},1).to({state:[{t:this.instance_74},{t:this.btn_prev_m2sm14},{t:this.btn_materi_m2sm14},{t:this.instance_110}]},1).to({state:[{t:this.btn_prev_m2sm23},{t:this.instance_77},{t:this.btn_materi_m2sm23},{t:this.instance_111}]},1).to({state:[{t:this.instance_80},{t:this.btn_prev_m2sm35},{t:this.btn_materi_m2sm35},{t:this.instance_112}]},1).to({state:[{t:this.instance_85},{t:this.btn_prev_m2sm43},{t:this.btn_materi_m2sm43},{t:this.instance_113}]},1).to({state:[{t:this.instance_88},{t:this.btn_materi_m2sm52},{t:this.btn_prev_m2sm52},{t:this.instance_114}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.btn_mulai},{t:this.btn_kuis},{t:this.btn_tentang},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_3},{t:this.btn_home},{t:this.btn_materi1},{t:this.btn_materi2},{t:this.btn_materi3},{t:this.btn_materi4}]},1).to({state:[{t:this.instance_5},{t:this.instance_4},{t:this.btn_home_about1},{t:this.btn_next_about1}]},1).to({state:[{t:this.instance_7},{t:this.instance_6},{t:this.btn_prev_about2},{t:this.btn_home_about2}]},1).to({state:[{t:this.btn_home_kuis},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.tombol_a},{t:this.tombol_b},{t:this.tombol_c},{t:this.tombol_d},{t:this.mulai_kuis}]},1).to({state:[{t:this.instance_10},{t:this.a1},{t:this.b1},{t:this.c1},{t:this.d1},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12}]},1).to({state:[{t:this.instance_10},{t:this.instance_12},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.a2},{t:this.b2},{t:this.c2},{t:this.d2}]},1).to({state:[{t:this.instance_10},{t:this.a3},{t:this.b3},{t:this.c3},{t:this.d3},{t:this.instance_12},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19}]},1).to({state:[{t:this.instance_10},{t:this.a4},{t:this.b4},{t:this.c4},{t:this.d4},{t:this.instance_12},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22}]},1).to({state:[{t:this.instance_10},{t:this.a5},{t:this.b5},{t:this.c5},{t:this.d5},{t:this.instance_12},{t:this.instance_27},{t:this.instance_26},{t:this.instance_25}]},1).to({state:[{t:this.instance_10},{t:this.a6},{t:this.b6},{t:this.c6},{t:this.d6},{t:this.instance_12},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28}]},1).to({state:[{t:this.instance_10},{t:this.a7},{t:this.b7},{t:this.c7},{t:this.d7},{t:this.instance_12},{t:this.instance_33},{t:this.instance_32},{t:this.instance_31}]},1).to({state:[{t:this.instance_10},{t:this.a8},{t:this.b8},{t:this.c8},{t:this.d8},{t:this.instance_12},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34}]},1).to({state:[{t:this.instance_10},{t:this.a9},{t:this.b9},{t:this.c9},{t:this.d9},{t:this.instance_12},{t:this.instance_39},{t:this.instance_38},{t:this.instance_37}]},1).to({state:[{t:this.instance_10},{t:this.a10},{t:this.b10},{t:this.c10},{t:this.d10},{t:this.instance_12},{t:this.instance_42},{t:this.instance_41},{t:this.instance_40}]},1).to({state:[{t:this.instance_10},{t:this.btn_home_kuis_akhir},{t:this.instance_45},{t:this.instance_44},{t:this.instance_43}]},1).to({state:[{t:this.instance_46},{t:this.m1sm1},{t:this.m1sm2},{t:this.m1sm3},{t:this.m1sm4},{t:this.m1sm5},{t:this.m1sm6},{t:this.btn_materi_m1},{t:this.btn_home_m1}]},1).to({state:[{t:this.instance_48},{t:this.instance_47},{t:this.btn_next_m1sm11},{t:this.btn_materi_m1sm11},{t:this.btn_home_m1sm11}]},1).to({state:[{t:this.instance_49},{t:this.instance_47},{t:this.btn_prev_m1sm12},{t:this.btn_next_m1sm12},{t:this.btn_materi_m1sm12},{t:this.btn_home_m1sm12}]},1).to({state:[{t:this.instance_50},{t:this.instance_47},{t:this.btn_prev_m1sm13},{t:this.btn_next_m1sm13},{t:this.btn_materi_m1sm13},{t:this.btn_home_m1sm13}]},1).to({state:[{t:this.instance_51},{t:this.instance_47},{t:this.btn_prev_m1sm14},{t:this.btn_next_m1sm14},{t:this.btn_materi_m1sm14},{t:this.btn_home_m1sm14}]},1).to({state:[{t:this.btn_next_m1sm21},{t:this.instance_53},{t:this.instance_52},{t:this.btn_materi_m1sm21},{t:this.btn_home_m1sm21}]},1).to({state:[{t:this.btn_prev_m1sm22},{t:this.btn_next_m1sm22},{t:this.instance_54},{t:this.instance_52},{t:this.btn_materi_m1sm22},{t:this.btn_home_m1sm22}]},1).to({state:[{t:this.instance_55},{t:this.instance_52},{t:this.btn_prev_m1sm23},{t:this.btn_next_m1sm23},{t:this.btn_materi_m1sm23},{t:this.btn_home_m1sm23}]},1).to({state:[{t:this.instance_57},{t:this.btn_next_m1sm31},{t:this.instance_56},{t:this.btn_materi_m1sm31},{t:this.btn_home_m1sm31}]},1).to({state:[{t:this.instance_57},{t:this.btn_prev_m1sm32},{t:this.btn_next_m1sm32},{t:this.instance_58},{t:this.btn_materi_m1sm32},{t:this.btn_home_m1sm32}]},1).to({state:[{t:this.instance_57},{t:this.instance_59},{t:this.btn_prev_m1sm33},{t:this.btn_next_m1sm33},{t:this.btn_materi_m1sm33},{t:this.btn_home_m1sm33}]},1).to({state:[{t:this.instance_61},{t:this.btn_next_m1sm41},{t:this.instance_60},{t:this.btn_materi_m1sm41},{t:this.btn_home_m1sm41}]},1).to({state:[{t:this.instance_61},{t:this.btn_prev_m1sm42},{t:this.btn_next_m1sm42},{t:this.instance_62},{t:this.btn_materi_m1sm42},{t:this.btn_home_m1sm42}]},1).to({state:[{t:this.instance_61},{t:this.instance_63},{t:this.btn_prev_m1sm43},{t:this.btn_next_m1sm43},{t:this.btn_materi_m1sm43},{t:this.btn_home_m1sm43}]},1).to({state:[{t:this.instance_65},{t:this.btn_next_m1sm51},{t:this.instance_64},{t:this.btn_materi_m1sm51},{t:this.btn_home_m1sm51}]},1).to({state:[{t:this.instance_65},{t:this.btn_prev_m1sm52},{t:this.btn_next_m1sm52},{t:this.instance_66},{t:this.btn_materi_m1sm52},{t:this.btn_home_m1sm52}]},1).to({state:[{t:this.instance_65},{t:this.instance_67},{t:this.btn_prev_m1sm53},{t:this.btn_next_m1sm53},{t:this.btn_materi_m1sm53},{t:this.btn_home_m1sm53}]},1).to({state:[{t:this.instance_69},{t:this.btn_next_m1sm61},{t:this.instance_68},{t:this.btn_materi_m1sm61},{t:this.btn_home_m1sm61}]},1).to({state:[{t:this.instance_69},{t:this.btn_prev_m1sm62},{t:this.btn_next_m1sm62},{t:this.instance_70},{t:this.btn_materi_m1sm62},{t:this.btn_home_m1sm62}]},1).to({state:[{t:this.instance_69},{t:this.instance_71},{t:this.btn_prev_m1sm63},{t:this.btn_next_m1sm63},{t:this.btn_materi_m1sm63},{t:this.btn_home_m1sm63}]},1).to({state:[{t:this.instance_72},{t:this.m2sm1},{t:this.m2sm2},{t:this.m2sm3},{t:this.m2sm4},{t:this.m2sm5},{t:this.btn_materi_m2},{t:this.btn_home_m2}]},1).to({state:[{t:this.btn_next_m2sm11},{t:this.instance_74},{t:this.instance_73},{t:this.btn_materi_m2sm11},{t:this.btn_home_m2sm11}]},1).to({state:[{t:this.instance_74},{t:this.btn_prev_m2sm12},{t:this.btn_next_m2sm12},{t:this.instance_75},{t:this.btn_materi_m2sm12},{t:this.btn_home_m2sm12}]},1).to({state:[{t:this.instance_74},{t:this.instance_76},{t:this.btn_prev_m2sm13},{t:this.btn_next_m2sm13},{t:this.btn_materi_m2sm13},{t:this.btn_home_m2sm13}]},1).to({state:[{t:this.btn_next_m2sm21},{t:this.instance_78},{t:this.instance_77},{t:this.btn_materi_m2sm21},{t:this.btn_home_m2sm21}]},1).to({state:[{t:this.instance_79},{t:this.instance_77},{t:this.btn_prev_m2sm22},{t:this.btn_next_m2sm22},{t:this.btn_materi_m2sm22},{t:this.btn_home_m2sm22}]},1).to({state:[{t:this.instance_81},{t:this.instance_80},{t:this.btn_next_m2sm31},{t:this.btn_materi_m2sm31},{t:this.btn_home_m2sm31}]},1).to({state:[{t:this.instance_82},{t:this.instance_80},{t:this.btn_prev_m2sm32},{t:this.btn_next_m2sm32},{t:this.btn_materi_m2sm32},{t:this.btn_home_m2sm32}]},1).to({state:[{t:this.instance_83},{t:this.instance_80},{t:this.btn_prev_m2sm33},{t:this.btn_next_m2sm33},{t:this.btn_materi_m2sm33},{t:this.btn_home_m2sm33}]},1).to({state:[{t:this.instance_84},{t:this.instance_80},{t:this.btn_prev_m2sm34},{t:this.btn_next_m2sm34},{t:this.btn_materi_m2sm34},{t:this.btn_home_m2sm34}]},1).to({state:[{t:this.instance_86},{t:this.instance_85},{t:this.btn_next_m2sm41},{t:this.btn_materi_m2sm41},{t:this.btn_home_m2sm41}]},1).to({state:[{t:this.instance_87},{t:this.instance_85},{t:this.btn_prev_m2sm42},{t:this.btn_next_m2sm42},{t:this.btn_materi_m2sm42},{t:this.btn_home_m2sm42}]},1).to({state:[{t:this.instance_89},{t:this.instance_88},{t:this.btn_next_m2sm51},{t:this.btn_materi_m2sm51},{t:this.btn_home_m2sm51}]},1).to({state:[{t:this.instance_91},{t:this.instance_90},{t:this.btn_next_m31},{t:this.btn_materi_m31},{t:this.btn_home_m31}]},1).to({state:[{t:this.instance_92},{t:this.instance_90},{t:this.btn_prev_m32},{t:this.btn_next_m32},{t:this.btn_materi_m32},{t:this.btn_home_m32}]},1).to({state:[{t:this.instance_93},{t:this.instance_90},{t:this.btn_prev_m33},{t:this.btn_materi_m33},{t:this.btn_home_m33}]},1).to({state:[{t:this.instance_94},{t:this.m4sm1},{t:this.m4sm2},{t:this.btn_materi_m4},{t:this.btn_home_m4}]},1).to({state:[{t:this.instance_96},{t:this.instance_95},{t:this.btn_next_m4sm11},{t:this.btn_materi_m4sm11},{t:this.btn_home_m4sm11}]},1).to({state:[{t:this.instance_97},{t:this.instance_95},{t:this.btn_prev_m4sm12},{t:this.btn_next_m4sm12},{t:this.btn_materi_m4sm12},{t:this.btn_home_m4sm12}]},1).to({state:[{t:this.instance_98},{t:this.instance_95},{t:this.btn_prev_m4sm13},{t:this.btn_materi_m4sm13},{t:this.btn_home_m4sm13}]},1).to({state:[{t:this.instance_100},{t:this.instance_99},{t:this.btn_next_m4sm21},{t:this.btn_materi_m4sm21},{t:this.btn_home_m4sm21}]},1).to({state:[{t:this.instance_101},{t:this.instance_99},{t:this.btn_prev_m4sm22},{t:this.btn_next_m4sm22},{t:this.btn_materi_m4sm21},{t:this.btn_home_m4sm21}]},1).to({state:[{t:this.instance_102},{t:this.instance_99},{t:this.btn_prev_m4sm23},{t:this.btn_next_m4sm23},{t:this.btn_materi_m4sm22},{t:this.btn_home_m4sm22}]},1).to({state:[{t:this.instance_103},{t:this.instance_99},{t:this.btn_prev_m4sm24},{t:this.btn_materi_m4sm23},{t:this.btn_home_m4sm23}]},1).to({state:[{t:this.instance_104},{t:this.btn_prev_m1sm15},{t:this.btn_materi_m1sm15},{t:this.instance_47},{t:this.btn_home_m1sm15}]},1).to({state:[{t:this.btn_prev_m1sm24},{t:this.btn_materi_m1sm24},{t:this.instance_52},{t:this.instance_105},{t:this.btn_home_m1sm24}]},1).to({state:[{t:this.btn_prev_m1sm34},{t:this.instance_57},{t:this.btn_materi_m1sm34},{t:this.instance_106},{t:this.btn_home_m1sm34}]},1).to({state:[{t:this.btn_prev_m1sm44},{t:this.instance_61},{t:this.btn_materi_m1sm44},{t:this.instance_107},{t:this.btn_home_m1sm44}]},1).to({state:[{t:this.btn_prev_m1sm54},{t:this.instance_65},{t:this.btn_materi_m1sm54},{t:this.instance_108},{t:this.btn_home_m1sm54}]},1).to({state:[{t:this.btn_prev_m1sm64},{t:this.instance_69},{t:this.btn_materi_m1sm64},{t:this.instance_109},{t:this.btn_home_m1sm64}]},1).to({state:[{t:this.instance_74},{t:this.btn_prev_m2sm14},{t:this.btn_materi_m2sm14},{t:this.instance_110},{t:this.btn_home_m2sm14}]},1).to({state:[{t:this.btn_prev_m2sm23},{t:this.instance_77},{t:this.btn_materi_m2sm23},{t:this.instance_111},{t:this.btn_home_m2sm23}]},1).to({state:[{t:this.instance_80},{t:this.btn_prev_m2sm35},{t:this.btn_materi_m2sm35},{t:this.instance_112},{t:this.btn_home_m2sm35}]},1).to({state:[{t:this.instance_85},{t:this.btn_prev_m2sm43},{t:this.btn_materi_m2sm43},{t:this.instance_113},{t:this.btn_home_m2sm43}]},1).to({state:[{t:this.instance_88},{t:this.btn_materi_m2sm52},{t:this.btn_prev_m2sm52},{t:this.instance_114},{t:this.btn_home_m2sm52}]},1).wait(1));
 
 	// Background
 	this.instance_115 = new lib.background1("synched",0);
@@ -8816,49 +10646,49 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/index_atlas_1.png", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png", id:"index_atlas_3"},
-		{src:"images/index_atlas_4.png", id:"index_atlas_4"},
-		{src:"images/index_atlas_5.png", id:"index_atlas_5"},
-		{src:"images/index_atlas_6.png", id:"index_atlas_6"},
-		{src:"images/index_atlas_7.png", id:"index_atlas_7"},
-		{src:"images/index_atlas_8.png", id:"index_atlas_8"},
-		{src:"images/index_atlas_9.png", id:"index_atlas_9"},
-		{src:"images/index_atlas_10.png", id:"index_atlas_10"},
-		{src:"images/index_atlas_11.png", id:"index_atlas_11"},
-		{src:"images/index_atlas_12.png", id:"index_atlas_12"},
-		{src:"images/index_atlas_13.png", id:"index_atlas_13"},
-		{src:"images/index_atlas_14.png", id:"index_atlas_14"},
-		{src:"images/index_atlas_15.png", id:"index_atlas_15"},
-		{src:"images/index_atlas_16.png", id:"index_atlas_16"},
-		{src:"images/index_atlas_17.png", id:"index_atlas_17"},
-		{src:"images/index_atlas_18.png", id:"index_atlas_18"},
-		{src:"images/index_atlas_19.png", id:"index_atlas_19"},
-		{src:"images/index_atlas_20.png", id:"index_atlas_20"},
-		{src:"images/index_atlas_21.png", id:"index_atlas_21"},
-		{src:"images/index_atlas_22.png", id:"index_atlas_22"},
-		{src:"images/index_atlas_23.png", id:"index_atlas_23"},
-		{src:"images/index_atlas_24.png", id:"index_atlas_24"},
-		{src:"images/index_atlas_25.png", id:"index_atlas_25"},
-		{src:"images/index_atlas_26.png", id:"index_atlas_26"},
-		{src:"images/index_atlas_27.png", id:"index_atlas_27"},
-		{src:"images/index_atlas_28.png", id:"index_atlas_28"},
-		{src:"images/index_atlas_29.png", id:"index_atlas_29"},
-		{src:"images/index_atlas_30.png", id:"index_atlas_30"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"},
-		{src:"components/video/src/video.js", id:"an.Video"}
+		{src:"images/index_atlas_1.png?1765770222219", id:"index_atlas_1"},
+		{src:"images/index_atlas_2.png?1765770222219", id:"index_atlas_2"},
+		{src:"images/index_atlas_3.png?1765770222219", id:"index_atlas_3"},
+		{src:"images/index_atlas_4.png?1765770222219", id:"index_atlas_4"},
+		{src:"images/index_atlas_5.png?1765770222219", id:"index_atlas_5"},
+		{src:"images/index_atlas_6.png?1765770222219", id:"index_atlas_6"},
+		{src:"images/index_atlas_7.png?1765770222219", id:"index_atlas_7"},
+		{src:"images/index_atlas_8.png?1765770222219", id:"index_atlas_8"},
+		{src:"images/index_atlas_9.png?1765770222219", id:"index_atlas_9"},
+		{src:"images/index_atlas_10.png?1765770222219", id:"index_atlas_10"},
+		{src:"images/index_atlas_11.png?1765770222220", id:"index_atlas_11"},
+		{src:"images/index_atlas_12.png?1765770222220", id:"index_atlas_12"},
+		{src:"images/index_atlas_13.png?1765770222220", id:"index_atlas_13"},
+		{src:"images/index_atlas_14.png?1765770222220", id:"index_atlas_14"},
+		{src:"images/index_atlas_15.png?1765770222220", id:"index_atlas_15"},
+		{src:"images/index_atlas_16.png?1765770222220", id:"index_atlas_16"},
+		{src:"images/index_atlas_17.png?1765770222220", id:"index_atlas_17"},
+		{src:"images/index_atlas_18.png?1765770222220", id:"index_atlas_18"},
+		{src:"images/index_atlas_19.png?1765770222220", id:"index_atlas_19"},
+		{src:"images/index_atlas_20.png?1765770222220", id:"index_atlas_20"},
+		{src:"images/index_atlas_21.png?1765770222220", id:"index_atlas_21"},
+		{src:"images/index_atlas_22.png?1765770222220", id:"index_atlas_22"},
+		{src:"images/index_atlas_23.png?1765770222220", id:"index_atlas_23"},
+		{src:"images/index_atlas_24.png?1765770222220", id:"index_atlas_24"},
+		{src:"images/index_atlas_25.png?1765770222220", id:"index_atlas_25"},
+		{src:"images/index_atlas_26.png?1765770222220", id:"index_atlas_26"},
+		{src:"images/index_atlas_27.png?1765770222221", id:"index_atlas_27"},
+		{src:"images/index_atlas_28.png?1765770222221", id:"index_atlas_28"},
+		{src:"images/index_atlas_29.png?1765770222221", id:"index_atlas_29"},
+		{src:"images/index_atlas_30.png?1765770222222", id:"index_atlas_30"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1765770226445", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1765770226445", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"},
+		{src:"components/video/src/video.js?1765770226445", id:"an.Video"}
 	],
 	preloads: []
 };
