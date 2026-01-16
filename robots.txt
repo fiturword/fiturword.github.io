@@ -1,0 +1,6 @@
+# Izinkan semua robot pencari untuk masuk
+User-agent: *
+Allow: /
+
+# Beri tahu lokasi peta situs (Sitemap) kamu
+Sitemap: https://fiturword.github.io/sitemap.xml
